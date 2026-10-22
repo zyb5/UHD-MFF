@@ -3,6 +3,12 @@
   <em> Shattering Barriers in Multi-Focus Ultra-High-Definition Image Fusion via Learnable Lookup Tables</em>
 </p>
 
+
+<p align="center">
+  <img src="assets/framework.pdf" alt="LUT-Fuse Framework" width="90%">
+</p>
+
+
 ---
 
 ## ⚙️ Environment
