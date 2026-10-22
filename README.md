@@ -44,6 +44,20 @@ CUDA_VISIBLE_DEVICES=0 python train_mff.py
 CUDA_VISIBLE_DEVICES=0 python train_mff_s2.py
 ```
 
+## 📖 Citation
+
+If you find our work or dataset useful for your research, please cite our paper.
+
+```bibtex
+@inproceedings{zhang2026uhd,
+  title={UHD-MFF: Shattering Barriers in Multi-focus Ultra-High-Definition Image Fusion via Learnable Lookup Tables},
+  author={Zhang, Yibing and Yi, Xunpeng and Yan, Qinglong and Wang, Yeda and Xu, Han and Ma, Jiayi},
+  booktitle={European Conference on Computer Vision},
+  pages={294--311},
+  year={2026},
+  organization={Springer}
+}
+```
 
 
 
