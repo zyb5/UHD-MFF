@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 Figure 2 illustrates our synthetic data generation pipeline. In addition, we also collected a set of real-world data.
 
-The datasets are available for download: [UHD-MFF-Syn](https://drive.google.com/drive/folders/1dinWJjwt21YyxdFFwg8nKtPJIwjudMAa) and [UHD-MFF-Real](https://drive.google.com/drive/folders/1vcs_UAeagjR2Er4N0OXtXK-1BOBRTXws).
+The datasets are available for download: [UHD-MFF-Real](https://drive.google.com/drive/folders/1dinWJjwt21YyxdFFwg8nKtPJIwjudMAa) and [UHD-MFF-Syn](https://drive.google.com/drive/folders/1vcs_UAeagjR2Er4N0OXtXK-1BOBRTXws).
 
 
 
