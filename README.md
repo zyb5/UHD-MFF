@@ -23,6 +23,28 @@ Figure 2 illustrates our synthetic data generation pipeline. In addition, we als
 
 The datasets are available for download: [UHD-MFF-Real](https://drive.google.com/drive/folders/1dinWJjwt21YyxdFFwg8nKtPJIwjudMAa) and [UHD-MFF-Syn](https://drive.google.com/drive/folders/1vcs_UAeagjR2Er4N0OXtXK-1BOBRTXws).
 
+## 💾 Checkpoints
+
+We provide our **pretrained checkpoints** directly in this repository for convenience.  
+You can find them under [`./ckpts`](./ckpts).
+
+- **Fusion LUT weights:** `ckpts/lut1.npy`   `ckpts/lut2.npy`
+- **Context generator weights:** `ckpts/generator_context.pth`
+
+## 🧪 Test
+
+```
+CUDA_VISIBLE_DEVICES=0 python test_mff.py
+```
+
+## 🚀 Train
+
+```
+CUDA_VISIBLE_DEVICES=0 python train_mff.py
+CUDA_VISIBLE_DEVICES=0 python train_mff_s2.py
+```
+
+
 
 
 If you have any questions, please send an email to zhangyibing@whu.edu.cn
