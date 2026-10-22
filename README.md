@@ -23,11 +23,32 @@ conda install pytorch==2.0.0 torchvision==0.15.0 pytorch-cuda=11.8 -c pytorch -c
 pip install -r requirements.txt
 ```
 
+
 ## 📂 Dataset
 
-Figure 2 illustrates our synthetic data generation pipeline. In addition, we also collected a set of real-world data.
+We introduce the **UHD-MFF dataset**, which consists of both synthetically generated and real-world captured multi-focus images.
 
-The datasets are available for download: [UHD-MFF-Real](https://drive.google.com/drive/folders/1dinWJjwt21YyxdFFwg8nKtPJIwjudMAa) and [UHD-MFF-Syn](https://drive.google.com/drive/folders/1vcs_UAeagjR2Er4N0OXtXK-1BOBRTXws).
+**Synthetic Data Generation.** Figure 2 illustrates our synthetic data generation pipeline, which is designed to construct high-quality multi-focus image pairs for model training and evaluation.
+
+<p align="center">
+  <img src="assets/data_process.png" alt="Synthetic Data Generation Pipeline" width="90%">
+</p>
+<p align="center">
+  <em>Figure 2. Overview of our synthetic data generation pipeline.</em>
+</p>
+
+**Dataset Samples.** In addition to synthetic data, we also collect real-world multi-focus images. Representative samples from our UHD-MFF dataset are shown below.
+
+<p align="center">
+  <img src="assets/data.png" alt="UHD-MFF Dataset Samples" width="90%">
+</p>
+<p align="center">
+  <em>Representative samples from the UHD-MFF dataset.</em>
+</p>
+
+**Dataset Download.** Both datasets are publicly available:
+- [**UHD-MFF-Syn**](https://drive.google.com/drive/folders/1vcs_UAeagjR2Er4N0OXtXK-1BOBRTXws) — Synthetic dataset.
+- [**UHD-MFF-Real**](https://drive.google.com/drive/folders/1dinWJjwt21YyxdFFwg8nKtPJIwjudMAa) — Real-world dataset.
 
 ## 💾 Checkpoints
 
