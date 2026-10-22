@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="assets/framework.pdf" alt="LUT-Fuse Framework" width="90%">
+  <img src="assets/framework.png" alt="LUT-Fuse Framework" width="90%">
 </p>
 
 
